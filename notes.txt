@@ -1,0 +1,7 @@
+1. [4-6 hours, I was fairly picky when it came to css styling and how I wanted the website to look]
+
+2. [I mainly used lectures and examples to help guide/ensure I'm doing it correctly, a little bit of stack overflow and w3schools to brush up some css techniques]
+
+3. and 4. [I did not need to ask]
+
+5. [I initially had a bit of trouble with making the button function work, however i used resources to refresh myself on how to set them up ]

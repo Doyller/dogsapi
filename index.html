@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <title>Dogs API</title>
+    </head>
+    <body>
+        <div id="error-msg" class="hidden"></div>
+        <p><strong> Welcome to Dogs API.<br>
+            
+            Want to see some dogs?</strong></p>
+        <h1>Steps to iniate the Dog API<br>
+            1. Select a Breed <br>
+            2. Select the amount of images(1-100) <br>
+            3. Select "lets see some dogs!"<br>
+            4. Enjoy the cute doggies!
+        </h1>
+        <form id="dogs-form" action="#">
+            <select id="breeds" name="breeds"></select>
+            <input id="image-count" type="number" min="1" max="100" value="1">
+            <input type="button" id="btn-load" value="Lets see some dogs!">
+        </form>
+        <main>
+            <h2>Dog Breed: <span id="breed-name"></span></h2>
+            <section id="images-container">
+                <img src="https://dog.ceo/api/breed/${breed}/images/random/${imageCount}">
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

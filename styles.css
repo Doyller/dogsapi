@@ -1,0 +1,81 @@
+hidden {
+  display: none;
+}
+
+section {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px;
+  border: 8px solid grey;
+  border-radius: 12px;
+}
+html {
+  background-color: rgb(150, 228, 250);
+}
+main{
+    background-color: rgb(150, 228, 250);
+}
+form{
+    background-color: rgb(150, 228, 250);
+    
+}
+
+body{
+    background-color: rgb(150, 228, 250);
+}
+h2 {
+  font-size: 20px;
+  font-style: oblique ;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(150, 228, 250);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 12px;
+}
+
+p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 1, 1);
+  text-align: center;
+  border: 5px solid black;
+  border-radius: 12px;
+}
+input {
+    color: rgb(245, 247, 247);
+    background-color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 2px solid rgb(252, 252, 252);
+    padding: 10px 10px;
+    box-shadow: 8px;
+    margin: 10px;
+    border-radius: 12px;
+}
+select{
+    color: rgb(245, 247, 247);
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid rgb(252, 252, 252);
+    padding: 10px 10px;
+    box-shadow: 8px;
+    border-radius: 12px;
+}
